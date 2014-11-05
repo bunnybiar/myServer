@@ -4,9 +4,9 @@ var app = express()
 app.use(express.static(__dirname + '/public'));
 app.get('/api/book',function(req,res){
 	var books = [
-		{title: 'Ragnarok', price: 200},
-		{title: 'Maple', price: 300},
-		{title: 'Yulgang', price: 400}
+		{title: 'AAA', price: 200},
+		{title: 'BBB', price: 300},
+		{title: 'CCC', price: 400}
 	];
 	res.send(books);
 })
